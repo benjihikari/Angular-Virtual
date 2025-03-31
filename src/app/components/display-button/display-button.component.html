@@ -1,0 +1,5 @@
+<p>display-button works!</p>
+<p-button (click)="showForm()">
+  Abrir
+</p-button>
+<app-display-form [isVisible]="visible" (visibleChange)="closeForm($event)">

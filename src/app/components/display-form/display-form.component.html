@@ -1,0 +1,10 @@
+<p-dialog [(visible)]="isVisible" (onHide)="onHide()" [modal]="true" [style]="{ width: '25rem' }">
+  <div class="flex items-center gap-4 mb-4">
+    <label for="username" class="font-semibold w-24">Nombre</label>
+    <input type="text" id="username" class="w-full border rounded"/>
+  </div>
+  <div class="flex items-center gap-4 mb-2">
+    <label for="email" class="font-semibold w-24">Correo</label>
+    <input type="email" id="email" class="w-full" class="w-full border rounded"/>
+  </div>
+</p-dialog>
